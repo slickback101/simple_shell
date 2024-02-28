@@ -7,9 +7,6 @@
  *       -1 on error
  */
 
-/// @brief
-/// @param s
-/// @return
 int convert_int(char *s)
 {
 	int i = 0;
@@ -40,9 +37,6 @@ int convert_int(char *s)
  *        -1 on error
  */
 
-/// @brief
-/// @param info
-/// @param estr
 void print_error(info_t *info, char *estr)
 {
 	print_inputs(info->fname);
@@ -62,10 +56,6 @@ void print_error(info_t *info, char *estr)
  * Return: number of characters printed
  */
 
-/// @brief
-/// @param input
-/// @param fd
-/// @return
 int print_decimal(int input, int fd)
 {
 	int (*__putchar)(char) = _putchar;
@@ -107,11 +97,6 @@ int print_decimal(int input, int fd)
  * Return: string
  */
 
-/// @brief
-/// @param num
-/// @param base
-/// @param flags
-/// @return
 char *convert_number_(long int num, int base, int flags)
 {
 	static char *array;
@@ -146,8 +131,6 @@ char *convert_number_(long int num, int base, int flags)
  * Return: Always 0;
  */
 
-/// @brief
-/// @param buf
 void delete_comments(char *buf)
 {
 	int d;

@@ -8,11 +8,6 @@
  * Return: 1 if chain delimeter, 0 otherwise
  */
 
-/// @brief
-/// @param info
-/// @param buf
-/// @param p
-/// @return
 int is_separated(info_t *info, char *buf, size_t *p)
 {
 	size_t j = *p;
@@ -50,12 +45,6 @@ int is_separated(info_t *info, char *buf, size_t *p)
  * Return: Void
  */
 
-/// @brief
-/// @param info
-/// @param buf
-/// @param p
-/// @param i
-/// @param len
 void verify_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len)
 {
 	size_t j = *p;
@@ -85,9 +74,6 @@ void verify_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len)
  * Return: 1 if replaced, 0 otherwise
  */
 
-/// @brief
-/// @param info
-/// @return
 int substitue_alias(info_t *info)
 {
 	int s;
@@ -117,9 +103,6 @@ int substitue_alias(info_t *info)
  * Return: 1 if replaced, 0 otherwise
  */
 
-/// @brief
-/// @param info
-/// @return
 int get_new_vars(info_t *info)
 {
 	int i = 0;
@@ -161,10 +144,6 @@ int get_new_vars(info_t *info)
  * Return: 1 if replaced, 0 otherwise
  */
 
-/// @brief
-/// @param old
-/// @param
-/// @return
 int change_string(char **old, char *new)
 {
 	free(*old);

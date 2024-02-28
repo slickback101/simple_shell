@@ -8,9 +8,6 @@
  *  Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
 int _displayhistory(info_t *info)
 {
 	my_print_list(info-> history);
@@ -25,10 +22,6 @@ int _displayhistory(info_t *info)
  * Return: Always 0 on success, 1 on error
  */
 
-/// @brief
-/// @param info
-/// @param str
-/// @return
 int unset_alias_string(info_t *info, char *str)
 {
 	char *p, c;
@@ -53,10 +46,6 @@ int unset_alias_string(info_t *info, char *str)
  * Return: Always 0 on success, 1 on error
  */
 
-/// @brief
-/// @param info
-/// @param str
-/// @return
 int set_alias_string(info_t *info, char *str)
 {
 	char *p;
@@ -78,9 +67,6 @@ int set_alias_string(info_t *info, char *str)
  * Return: Always 0 on success, 1 on error
  */
 
-/// @brief
-/// @param node
-/// @return
 int print_alias_string(list_t *node)
 {
 	char *p = NULL, *a = NULL;
@@ -105,9 +91,6 @@ int print_alias_string(list_t *node)
  *  Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
 int _myalias_builtin(info_t *info)
 {
 	int a = 0;

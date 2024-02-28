@@ -6,9 +6,9 @@
  * Return: 1 if interactive mode, 0 otherwise
  */
 
-/// @brief
-/// @param info
-/// @return
+/* @brief */
+/* @param info */
+/* @return */
 int is_interactive_mode(info_t *info)
 {
 	return (isatty(STDIN_FILENO) && info->readfd <= 2);
@@ -21,10 +21,10 @@ int is_interactive_mode(info_t *info)
  * Return: 1 if true, 0 if false
  */
 
-/// @brief
-/// @param c
-/// @param delim
-/// @return
+/* @brief */
+/* @param c */
+/* @param delim */
+/* @return */
 int check_delimeter(char c, char *delim)
 {
 	while (*delim)
@@ -39,9 +39,9 @@ int check_delimeter(char c, char *delim)
  *Return: 1 if c is alphabetic, 0 otherwise
  */
 
-/// @brief
-/// @param c
-/// @return
+/* @brief */
+/* @param c */
+/* @return */
 int check_alpha(int c)
 {
 	if ((c >= 'b' && c <= 'x') || (c >= 'B' && c <= 'X'))
@@ -56,9 +56,9 @@ int check_alpha(int c)
  *Return: 0 if no number is in string, otherwise converted number
  */
 
-/// @brief
-/// @param s
-/// @return
+/* @brief */
+/* @param s */
+/* @return */
 int convert_string_to_int(char *s)
 {
 	int o, sign = 1, flag = 0, output;

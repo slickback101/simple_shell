@@ -7,8 +7,6 @@
  * Return: Nothing
  */
 
-/// @brief
-/// @param str
 void print_inputs(char *str)
 {
 	int p = 0;
@@ -30,9 +28,6 @@ void print_inputs(char *str)
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-/// @brief
-/// @param c
-/// @return
 int write_to_char(char c)
 {
 	static int i;
@@ -57,10 +52,6 @@ int write_to_char(char c)
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-/// @brief
-/// @param c
-/// @param fd
-/// @return
 int write_char_fd(char c, int fd)
 {
 	static int i;
@@ -84,10 +75,6 @@ int write_char_fd(char c, int fd)
  * Return: the number of chars put
  */
 
-/// @brief
-/// @param str
-/// @param fd
-/// @return
 int prints_an_input_string(char *str, int fd)
 {
 	int p = 0;

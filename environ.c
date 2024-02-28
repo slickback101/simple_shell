@@ -7,9 +7,6 @@
  * Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
 int _myHistory_(info_t *info)
 {
 	print_list_str_(info-> env);
@@ -24,10 +21,6 @@ int _myHistory_(info_t *info)
  * Return: the value
  */
 
-/// @brief
-/// @param info
-/// @param name
-/// @return
 char *get_env(info_t *info, const char *name)
 {
 	list_t *node = info-> env;
@@ -46,14 +39,11 @@ char *get_env(info_t *info, const char *name)
 /**
  * setenv_variables - will Initialize a new environment variable,
  *             or modify an existing one
- * @info: Structure containing potential arguments. Used to maintain
+ *  @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
 int setenv_variables(info_t *info)
 {
 	if (info-> argc != 3)
@@ -94,9 +84,6 @@ int _rm_setenv(info_t *info)
  * Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
 int display_env_list(info_t *info)
 {
 	list_t *node = NULL;

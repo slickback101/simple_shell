@@ -8,14 +8,14 @@
  *         (0) if info.argv[0] != "exit"
  */
 
-/// @brief
-/// @param info
-/// @return
+/* @brief */
+/* @param info */
+/* @return */
 int _myhelp_(info_t *info)
 {
 	int exitscheck;
 
-	if (info->argv[1]) /* If there is an exit argument */
+	if (info->argv[1])
 	{
 		exitscheck = convert_int(info->argv[1]);
 		if (exitscheck == -1)
@@ -40,9 +40,9 @@ int _myhelp_(info_t *info)
  *  Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
+/* @brief */
+/* @param info */
+/* @return */
 int _change_dir(info_t *info)
 {
 	char *s, *dir, buffer[1024];
@@ -92,9 +92,9 @@ int _change_dir(info_t *info)
  *  Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
+/* @brief */
+/* @param info */
+/* @return */
 int change_dir_help(info_t *info)
 {
 	char **arg_array;

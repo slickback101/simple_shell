@@ -9,11 +9,6 @@
  * Return: size of list
  */
 
-/// @brief
-/// @param head
-/// @param str
-/// @param num
-/// @return
 list_t *add_node_list(list_t **head, const char *str, int num)
 {
 	list_t *new_head;
@@ -48,11 +43,6 @@ list_t *add_node_list(list_t **head, const char *str, int num)
  * Return: size of list
  */
 
-/// @brief
-/// @param head
-/// @param str
-/// @param num
-/// @return
 list_t *add_node_end_list(list_t **head, const char *str, int num)
 {
 	list_t *new_node, *node;
@@ -93,9 +83,6 @@ list_t *add_node_end_list(list_t **head, const char *str, int num)
  * Return: size of list
  */
 
-/// @brief
-/// @param h
-/// @return
 size_t print_list_str_(const list_t *h)
 {
 	size_t p = 0;
@@ -118,10 +105,6 @@ size_t print_list_str_(const list_t *h)
  * Return: 1 on success, 0 on failure
  */
 
-/// @brief
-/// @param head
-/// @param index
-/// @return
 int rm_node_at_index(list_t **head, unsigned int index)
 {
 	list_t *node, *prev_node;
@@ -162,8 +145,6 @@ int rm_node_at_index(list_t **head, unsigned int index)
  * Return: void
  */
 
-/// @brief
-/// @param head_ptr
 void free_all_node_list(list_t **head_ptr)
 {
 	list_t *node, *next_node, *head;

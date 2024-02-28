@@ -8,10 +8,6 @@
  * Return: 0 on success, 1 on error, or error code
  */
 
-/// @brief
-/// @param info
-/// @param av
-/// @return
 int hsh(info_t *info, char **av)
 {
 	ssize_t r = 0;
@@ -53,14 +49,11 @@ int hsh(info_t *info, char **av)
  * @info: the parameter & return info struct
  *
  * Return: -1 if builtin not found,
- *			0 if builtin executed successfully,
- *			1 if builtin found but not successful,
- *			-2 if builtin signals exit()
+ *	0 if builtin executed successfully,
+ *	1 if builtin found but not successful,
+ *	-2 if builtin signals exit()
  */
 
-/// @brief
-/// @param info
-/// @return
 int find_builtin(info_t *info)
 {
 	int i, built_in_ret = -1;
@@ -92,8 +85,6 @@ int find_builtin(info_t *info)
  * Return: void
  */
 
-/// @brief
-/// @param info
 void find_cmd(info_t *info)
 {
 	char *path = NULL;
@@ -136,8 +127,6 @@ void find_cmd(info_t *info)
  * Return: void
  */
 
-/// @brief
-/// @param info
 void fork_cmd(info_t *info)
 {
 	pid_t child_pid;

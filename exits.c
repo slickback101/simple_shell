@@ -8,14 +8,9 @@
  *Return: the concatenated string
  */
 
-/// @brief
-/// @param dest
-/// @param src
-/// @param n
-/// @return
 char *copy_str(char *dest, char *src, int n)
 {
-	int c, s;
+	int c, S;
 	char *s = dest;
 
 	c = 0;
@@ -26,11 +21,11 @@ char *copy_str(char *dest, char *src, int n)
 	}
 	if (c < n)
 	{
-		s = c;
-		while (s < n)
+		S = c;
+		while (S < n)
 		{
-			dest[s] = '\0';
-			s++;
+			dest[S] = '\0';
+			S++;
 		}
 	}
 	return (s);
@@ -44,11 +39,6 @@ char *copy_str(char *dest, char *src, int n)
  *Return: the concatenated string
  */
 
-/// @brief
-/// @param dest
-/// @param src
-/// @param n
-/// @return
 char *concat_string(char *dest, char *src, int n)
 {
 	int i, j;
@@ -76,10 +66,6 @@ char *concat_string(char *dest, char *src, int n)
  *Return: (s) a pointer to the memory area s
  */
 
-/// @brief
-/// @param s
-/// @param c
-/// @return
 char *find_char_in_string(char *s, char c)
 {
 	do {

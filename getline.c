@@ -9,11 +9,6 @@
  * Return: bytes read
  */
 
-/// @brief
-/// @param info
-/// @param buf
-/// @param len
-/// @return
 ssize_t input_buffer(info_t *info, char **buf, size_t *len)
 {
 	ssize_t b = 0;
@@ -54,9 +49,6 @@ ssize_t input_buffer(info_t *info, char **buf, size_t *len)
  * Return: bytes read
  */
 
-/// @brief
-/// @param info
-/// @return
 ssize_t get_inputs(info_t *info)
 {
 	static char *buf;
@@ -104,11 +96,6 @@ ssize_t get_inputs(info_t *info)
  * Return: r
  */
 
-/// @brief
-/// @param info
-/// @param buf
-/// @param i
-/// @return
 ssize_t read_buffers(info_t *info, char *buf, size_t *i)
 {
 	ssize_t r = 0;
@@ -130,11 +117,6 @@ ssize_t read_buffers(info_t *info, char *buf, size_t *i)
  * Return: s
  */
 
-/// @brief
-/// @param info
-/// @param ptr
-/// @param length
-/// @return
 int _get_next_line(info_t *info, char **ptr, size_t *length)
 {
 	static char buf[READ_BUF_SIZE];
@@ -181,8 +163,6 @@ int _get_next_line(info_t *info, char **ptr, size_t *length)
  * Return: void
  */
 
-/// @brief
-/// @param sig_num
 void sig_int_Handlers(__attribute__((unused)) int sig_num)
 {
 	prints_input_string("\n");

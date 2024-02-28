@@ -5,8 +5,6 @@
  * @info: struct address
  */
 
-/// @brief
-/// @param info
 void rm_info(info_t *info)
 {
 	info-> arg = NULL;
@@ -21,9 +19,6 @@ void rm_info(info_t *info)
  * @av: argument vector
  */
 
-/// @brief
-/// @param info
-/// @param av
 void set_info_(info_t *info, char **av)
 {
 	int i = 0;
@@ -57,9 +52,6 @@ void set_info_(info_t *info, char **av)
  * @all: true if freeing all fields
  */
 
-/// @brief
-/// @param info
-/// @param all
 void free_info_fields(info_t *info, int all)
 {
 	ffree(info-> argv);

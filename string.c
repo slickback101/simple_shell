@@ -5,10 +5,6 @@
  * @S: the string whose length to check
  * Return: integer length of string
  */
-
-/// @brief
-/// @param S
-/// @return
 int strlen_length(char *S)
 {
 	int i = 0;
@@ -28,10 +24,6 @@ int strlen_length(char *S)
  * Return: negative if S1 < S2, positive if S1 > S2, zero if S1 == S2
  */
 
-/// @brief
-/// @param S1
-/// @param S2
-/// @return
 int _compare_strang(char *S1, char *S2)
 {
 	while (*S1 && *S2)
@@ -54,10 +46,6 @@ int _compare_strang(char *S1, char *S2)
  * Return: address of next char of haystack or NULL
  */
 
-/// @brief
-/// @param haystack
-/// @param needle
-/// @return
 char *starts_with_haystack(const char *haystack, const char *needle)
 {
 	while (*needle)
@@ -72,10 +60,6 @@ char *starts_with_haystack(const char *haystack, const char *needle)
  * @src: the source buffer
  * Return: pointer to destination buffer
  */
-/// @brief
-/// @param dest
-/// @param src
-/// @return
 char *concat_two_strings(char *dest, char *src)
 {
 	char *ret = dest;

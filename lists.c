@@ -7,9 +7,6 @@
  * Return: size of list
  */
 
-/// @brief
-/// @param n
-/// @return
 size_t _list_len(const list_t *n)
 {
 	size_t l = 0;
@@ -29,9 +26,6 @@ size_t _list_len(const list_t *n)
  * Return: array of strings
  */
 
-/// @brief
-/// @param first
-/// @return
 char **list_to_strings_(list_t *first)
 {
 	list_t *node = first;
@@ -69,9 +63,6 @@ char **list_to_strings_(list_t *first)
  * Return: size of list
  */
 
-/// @brief
-/// @param h
-/// @return
 size_t my_print_list(const list_t *h)
 {
 	size_t i = 0;
@@ -98,11 +89,6 @@ size_t my_print_list(const list_t *h)
  * Return: match node or null
  */
 
-/// @brief
-/// @param node
-/// @param prefix
-/// @param ch
-/// @return
 list_t *node_starts_with_prefix(list_t *node, char *prefix, char ch)
 {
 	char *p = NULL;
@@ -125,10 +111,6 @@ list_t *node_starts_with_prefix(list_t *node, char *prefix, char ch)
  * Return: index of node or -1
  */
 
-/// @brief
-/// @param h
-/// @param node
-/// @return
 ssize_t get_node_at_index(list_t *h, list_t *node)
 {
 	size_t i = 0;

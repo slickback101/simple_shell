@@ -8,11 +8,6 @@
  *Return: (s) a pointer to the memory area s
  */
 
-/// @brief
-/// @param s
-/// @param b
-/// @param n
-/// @return
 char *_ismemset(char *s, char b, unsigned int n)
 {
 	unsigned int m;
@@ -27,8 +22,6 @@ char *_ismemset(char *s, char b, unsigned int n)
  * @pp: the string of strings
  */
 
-/// @brief
-/// @param pp
 void ffree(char **pp)
 {
 	char **a = pp;
@@ -49,11 +42,6 @@ void ffree(char **pp)
  * Return: pointer to da ol'block nameen.
  */
 
-/// @brief
-/// @param ptr
-/// @param old_size
-/// @param new_size
-/// @return
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *r;

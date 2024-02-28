@@ -7,10 +7,6 @@
  * Return: pointer to destination
  */
 
-/// @brief
-/// @param dest
-/// @param src
-/// @return
 char *copy_string(char *dest, char *src)
 {
 	int C = 0;
@@ -32,9 +28,6 @@ char *copy_string(char *dest, char *src)
  * Return: pointer to the duplicated string
  */
 
-/// @brief
-/// @param str
-/// @return
 char *duplicate_string(const char *str)
 {
 	int length = 0;
@@ -58,8 +51,6 @@ char *duplicate_string(const char *str)
  * Return: Nothing
  */
 
-/// @brief
-/// @param str
 void prints_input_string(char *str)
 {
 	int i = 0;
@@ -80,9 +71,6 @@ void prints_input_string(char *str)
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-/// @brief
-/// @param c
-/// @return
 int _putchar(char c)
 {
 	static int i;

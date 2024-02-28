@@ -7,9 +7,6 @@
  * Return: allocated string of file history
  */
 
-/// @brief
-/// @param info
-/// @return
 char *get_my_history_file(info_t *info)
 {
 	char *buf, *dir;
@@ -34,9 +31,6 @@ char *get_my_history_file(info_t *info)
  * Return: 1 on success, else -1
  */
 
-/// @brief
-/// @param info
-/// @return
 int write_my_history(info_t *info)
 {
 	ssize_t fd;
@@ -67,9 +61,6 @@ int write_my_history(info_t *info)
  * Return: histcount on success, 0 otherwise
  */
 
-/// @brief
-/// @param info
-/// @return
 int read_my_history(info_t *info)
 {
 	int e, last = 0, linecount = 0;
@@ -122,11 +113,6 @@ int read_my_history(info_t *info)
  * Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @param buf
-/// @param linecount
-/// @return
 int build_my_history_list(info_t *info, char *buf, int linecount)
 {
 	list_t *node = NULL;
@@ -147,9 +133,6 @@ int build_my_history_list(info_t *info, char *buf, int linecount)
  * Return: the new histcount
  */
 
-/// @brief
-/// @param info
-/// @return
 int renumber_my_history(info_t *info)
 {
 	list_t *node = info->history;

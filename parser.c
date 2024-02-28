@@ -8,10 +8,6 @@
  * Return: 1 if true, 0 otherwise
  */
 
-/// @brief
-/// @param info
-/// @param path
-/// @return
 int is_command(info_t *info, char *path)
 {
 	struct stat st;
@@ -36,11 +32,6 @@ int is_command(info_t *info, char *path)
  * Return: pointer to new buffer
  */
 
-/// @brief
-/// @param pathstr
-/// @param start
-/// @param stop
-/// @return
 char *duplicate_chars(char *pathstr, int start, int stop)
 {
 	static char buf[1024];
@@ -62,11 +53,6 @@ char *duplicate_chars(char *pathstr, int start, int stop)
  * Return: full path of cmd if found or NULL
  */
 
-/// @brief
-/// @param info
-/// @param pathstr
-/// @param cmd
-/// @return
 char *find_my_path(info_t *info, char *pathstr, char *cmd)
 {
 	int i = 0, curr_pos = 0;

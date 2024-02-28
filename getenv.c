@@ -7,9 +7,6 @@
  * Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @return
 char **fetch_env(info_t *info)
 {
 	if (!info-> environ || info-> env_changed)
@@ -29,10 +26,6 @@ char **fetch_env(info_t *info)
  * @var: the string env var property
  */
 
-/// @brief
-/// @param info
-/// @param var
-/// @return
 int _un_setenv(info_t *info, char *var)
 {
 	list_t *node = info-> env;
@@ -68,11 +61,6 @@ int _un_setenv(info_t *info, char *var)
  *  Return: Always 0
  */
 
-/// @brief
-/// @param info
-/// @param var
-/// @param value
-/// @return
 int _set_env(info_t *info, char *var, char *value)
 {
 	char *buf = NULL;

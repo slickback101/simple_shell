@@ -7,10 +7,6 @@
  * Return: a pointer to an array of strings, or NULL on failure
  */
 
-/// @brief
-/// @param str
-/// @param d
-/// @return
 char **split_string_words(char *str, char *d)
 {
 	int A, B, C, E, numwords = 0;
@@ -59,10 +55,6 @@ char **split_string_words(char *str, char *d)
  * Return: a pointer to an array of strings, or NULL on failure
  */
 
-/// @brief
-/// @param str
-/// @param d
-/// @return
 char **split_string_words_2(char *str, char d)
 {
 	int A, B, C, E, numwords = 0;
